@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root{
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*Product Screen*/
+.details{
+  display: flex;
+  justify-content: space-between;
+  justify-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.details-image{
+  flex: 2 1 60rem;
+}
+
+.details-image img {
+  max-width: 60rem;
+  height: 100%;
+  widows: 100%;
+}
+
+.details-info{
+  flex: 1 1 30rem;
+
+}
+
+.details-action{
+  flex : 1 1 30rem;
+  border: .1rem #808080 solid;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  max-height: 60rem;
+  height: 50%;
+
+}
+
+.details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.details li {
+  margin: 1rem;
+}
+
+.back-to-result{
+  padding: 1rem;
+}
+
+.details-action ul .details-action li:last-child{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.button{
+  padding: 1rem;
+  border : .1rem #808080 solid;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  display: block;
+  background-color: #f0c040;
+  width: 100%;
+
+}
+
+.button:hover{
+  border : .1rem #404040 solid;
+  background-color: #f0808040;
+
+}
+
