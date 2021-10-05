@@ -4,7 +4,7 @@ public class Test {
     }
 
     public Test(Integer test_name) {
-        this.test_name = test_name + "";
+        this.test_name = test_name;
     }
 
     public Integer getTest_name() {
