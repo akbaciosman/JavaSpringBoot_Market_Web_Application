@@ -11,5 +11,6 @@ public class Test {
         return test_name;
     }
 
-    private Integer test_name ;
+    private Integer test_number ;
+    private String name;
 }
