@@ -1,3 +1,3 @@
 public class TestFeature2 {
-    //TODO
+    private String name;
 }
